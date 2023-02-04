@@ -1,11 +1,11 @@
 import preprocess from "svelte-preprocess"
-import nesting from "postcss-nesting"
+import nested from "postcss-nested"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   preprocess: preprocess({
     postcss: {
-      plugins: [nesting()]
+      plugins: [nested()]
     }
   })
 }

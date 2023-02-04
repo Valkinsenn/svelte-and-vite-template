@@ -1,14 +1,11 @@
 <script>
-
 </script>
 
-<main>
+<div class="this-div">
   <h1>This is Svelte!</h1>
-  <h2>And it's awesome.</h2>
-</main>
+  <h2>Put stuff in it!</h2>
+</div>
 
 <style lang="postcss">
-  h1 {
-    @apply text-3xl;
-  }
+  /* Styles TBD */
 </style>
