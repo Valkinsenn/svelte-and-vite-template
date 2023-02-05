@@ -1,0 +1,15 @@
+/* ================================================
+TAILWIND DIRECTIVES
+================================================ */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* >>>> Imported Stylesheets <<<< */
+
+@import "./base/aaa_index.css";
+@import "./components/aaa_index.css";
+@import "./layouts/aaa_index.css";
+@import "./pages/aaa_index.css";
+@import "./utilities/aaa_index.css";
