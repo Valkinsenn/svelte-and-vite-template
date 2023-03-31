@@ -27,7 +27,7 @@
     "svelte-time": "^0.7.1",
     "svelte-turnstile": "^0.3.1",
     "tailwind-scrollbar": "^2.1.0",
-    "tailwindcss": "^3.2.4",
+    "tailwindcss": "^3.3.1",
     "vite": "^3.2.3",
     "yup": "^0.32.11"
   }
