@@ -1,7 +1,20 @@
 <script>
+  // Imported Modules
+  import Router from "svelte-spa-router"
+
+  // Imported Components
+  import Footer from "./lib/layout/Footer.svelte"
+  import Navbar from "./lib/layout/Navbar.svelte"
+
+  // Imported Scripts and Variables
+  import { routes } from "./lib/scripts/routes"
 </script>
 
-<div class="this-div">
-  <h1>This is Svelte!</h1>
-  <h2>Put stuff in it!</h2>
+<Navbar />
+
+<!-- Outer wrapper for the Router -->
+<div class="outer-wrapper">
+  <Router {routes} />
 </div>
+
+<Footer />
